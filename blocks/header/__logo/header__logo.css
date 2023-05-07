@@ -3,7 +3,6 @@
   height: 33px;
   background-image: url(../../../images/logo.svg);
   background-size: cover;
-  object-fit: contain;
   background-position: center;
 }
 
