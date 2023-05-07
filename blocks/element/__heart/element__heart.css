@@ -8,6 +8,7 @@
   border: none;
   margin-top: 5px;
   margin-right: 5px;
+  transition: 0.5s;
 }
 
 .element__heart:hover {
