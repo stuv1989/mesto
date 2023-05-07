@@ -9,7 +9,7 @@
   color: #fff;
   font-style: normal;
   font-weight: 400;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 22px;
 }
 
@@ -22,7 +22,7 @@
   .popup__button-save {
     width: 238px;
     height: 46px;
-    font-style: 14px;
+    font-size: 14px;
     line-height: 17px;
     margin: 45px 22px 25px;
   }
