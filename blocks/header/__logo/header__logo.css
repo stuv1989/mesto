@@ -3,12 +3,13 @@
   height: 33px;
   background-image: url(../../../images/logo.svg);
   background-size: cover;
- background-position: center;
+  object-fit: contain;
+  background-position: center;
 }
 
 @media screen and (max-width: 767px) {
   .header__logo {
-    width: 103.74px;
+    max-width: 104px;
     height: 24.4px;
     margin-left: 27px;
   }
