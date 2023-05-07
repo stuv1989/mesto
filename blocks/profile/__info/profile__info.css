@@ -1,5 +1,28 @@
 .profile__info {
-  /* max-width: 336px; */
-  min-height: 73px;
-  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr 24px;
+  column-gap: 18px;
+  margin-left: 30px;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__info {
+    margin: 0 auto;
+    column-gap: 0;
+    grid-template-areas: 
+    "title button"
+    "subtitle .";
+    /* grid-template-columns: 1fr 18px;
+    justify-items: center;
+    max-width: 282px;
+    max-height: 54px;
+    margin: 0 auto;
+    column-gap: 0; */
+    /* display: flex;
+    max-width: 282px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;     */
+  }
 }

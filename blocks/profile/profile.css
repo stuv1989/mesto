@@ -1,9 +1,25 @@
 .profile {
-  width: 68.75%;
+  max-width: 68.75%;
   min-height: 120px;
   margin: 0 auto;
-  border: 1px solid red;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 120px 366px 1fr;
   align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .profile {
+    min-width: 704px; 
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .profile {
+    max-width: 282px;
+    min-height: 286px;
+    grid-template-rows: 120px 54px 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 26px;
+    flex-wrap: wrap;
+  }
 }

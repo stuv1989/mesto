@@ -1,0 +1,27 @@
+.popup__value {
+  max-width: 358px;
+  width: 100%;
+  margin-left: 36px;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.popup__value:first-of-type {
+  margin-bottom: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .popup__value {
+    max-width: 238px;
+    width: 100%;
+    margin-left: 22px;
+  }
+}
